@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Commerce</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarScroll">
+          <div>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2 s-bar" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+
+          <div>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item nav-option">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown nav-option">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Catagories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#shoes">Shoe</a></li>
+                  <li><a class="dropdown-item" href="#backpack">Backpack</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item nav-option">
+                <a class="nav-link" href="#"> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-keyboard="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <div class="row d-flex align-items-center justify-content-between">
+            <div class='col-md-5 col-left'>
+              <h1>MI LED TV 4A PRO 32</h1>
+              <p>Set the direction of flex items in a flex container with direction utilities. In most cases you can
+                omit the horizontal class here as the browser default is row. </p>
+              <h1 class="price">1250$</h1>
+              <button class="btn1 btn ">Buy Now-></button>
+            </div>
+            <div class="col-md-7 img1">
+              <img src="banner-images/tv.png" class="d-block w-100 img1" alt="...">
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <div class="row d-flex align-items-center justify-content-between">
+            <div class='col-md-5 col-left'>
+              <h1>PREMIUM HEADPHONE</h1>
+              <p>Set the direction of flex items in a flex container with direction utilities. In most cases you can
+                omit the horizontal class here as the browser default is row. </p>
+              <h1 class="price">750$</h1>
+              <button class="btn1 btn ">Buy Now-></button>
+            </div>
+            <div class="col-md-7 img1">
+              <img src="banner-images/headphone.png" class="d-block w-100 img1" alt="...">
+            </div>
+
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <div class="row d-flex align-items-center justify-content-between">
+            <div class='col-md-5 col-left'>
+              <h1>X-BOX</h1>
+              <p>Set the direction of flex items in a flex container with direction utilities. In most cases you can
+                omit the horizontal class here as the browser default is row. </p>
+              <h1 class="price">2500$</h1>
+              <button class="btn1 btn ">Buy Now-></button>
+            </div>
+            <div class="col-md-7 img1">
+              <img src="banner-images/xbox.png" class="d-block w-100 img1" alt="...">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+<div class="container">
+  <h3 class="ct-h3">Catagories</h3>
+  <div class="row justify-content-between">
+    
+    <div class="col-md-3 ct-1 ">
+      
+      <a class="d-flex justify-content-between align-items-center ct-link" href="#">
+        <div><h2 class="ct-h2">watch</h2></div>
+        <div> <img class="ct-img" src="categories/watch.png" alt=""></div>
+      </a>
+ 
+    </div>
+    <div class="col-md-3 ct-2">
+      <a class="d-flex justify-content-between align-items-center ct-link" href="#backpack">
+        <div><h2 class="ct-h2">Bag</h2></div>
+        <div> <img class="ct-img" src="categories/bag.png" alt="#"></div>
+      </a>
+    </div>
+    <div class="col-md-3 ct-3">
+      <a class="d-flex justify-content-between align-items-center ct-link" href="#shoes">
+        <div><h2 class="ct-h2">Shoes</h2></div>
+        <div> <img class="ct-img" src="categories/shoes.png" alt="#"></div>
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+<div class="container" id="shoes">
+  <div class="row ">
+    <div class="col-md-6">
+      <h3 class="ct-h3">Shoes</h3>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end">
+      <h5 class="ct-h3 see-all">See All</h5>
+    </div>
+    
+  </div>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 card-All">
+        <img src="shoes/shoe-1.png" class="card-img-top img-e-ct" alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Ison Backpack</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$799</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now-></button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 card-All">
+        <img src="shoes/shoe-2.png" class="card-img-top img-e-ct" alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Biaowang Backpack</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$1300</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now-></button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 card-All">
+        <img src="shoes/shoe-3.png" class="card-img-top img-e-ct" alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Reebok All Terrain</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$700</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now-></button>
+          </div>
+        </div>
+        <div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="backpack">
+  <div class="row ">
+    <div class="col-md-6">
+      <h3 class="ct-h3">Backpack</h3>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end">
+      <h5 class="ct-h3 see-all">See All</h5>
+    </div>
+    
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 card-All">
+        <img src="bags/bag-1.png" class="card-img-top img-e-ct" alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Reebok Dart Man's Shoes</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$599</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now-></button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 card-All">
+        <img src="bags/bag-2.png" class="card-img-top img-e-ct" alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Reebok Pump</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$1200</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now-></button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100 card-All ">
+        <img src="bags/bag-3.png" class="card-img-top img-e-ct " alt="...">
+        <div class="card-body cb">
+          <h5 class="card-title">Dxyizu WS54 Smart</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <h3 class="sh-h3">$700</h3>
+          <div>
+            <button class="btn1 btn ">Buy Now->></button>
+          </div>
+        </div>
+        <div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container last-section ">
+  <div class="txt">
+    <h1 class="d-flex justify-content-center align-items-center">LET'S STEY IN TOUCH</h1>
+   
+    <p class="d-flex justify-content-center align-items-center">Get update on sell special and more</p>
+  </div>
+  <div class="d-flex justify-content-center align-items-center txt2">
+    <input class="text-box" type="email" placeholder="Enter your email">
+    
+  </div>
+  <div class="d-flex justify-content-center align-items-center btn-l">
+    <button type="submit" class="btn1 btn" >Subcribe</button>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
